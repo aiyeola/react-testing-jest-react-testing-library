@@ -7,11 +7,12 @@ module.exports = {
     'plugin:jest/recommended',
     'plugin:jest/style',
     'plugin:testing-library/react',
+    'plugin:@next/next/recommended',
     'next/core-web-vitals',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
-    project: './tsconfig.eslint.json',
+    project: './tsconfig.json',
     ecmaFeatures: {
       jsx: true,
     },
