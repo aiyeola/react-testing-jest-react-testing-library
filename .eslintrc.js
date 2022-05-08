@@ -7,6 +7,7 @@ module.exports = {
     'plugin:jest/recommended',
     'plugin:jest/style',
     'plugin:testing-library/react',
+    'next/core-web-vitals',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
