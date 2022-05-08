@@ -7,7 +7,6 @@ module.exports = {
     'plugin:jest/recommended',
     'plugin:jest/style',
     'plugin:testing-library/react',
-    'next',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
