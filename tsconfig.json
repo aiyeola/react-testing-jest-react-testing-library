@@ -17,8 +17,8 @@
   },
   "include": [
     "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
+    "**/*/*.ts",
+    "**/*/*.tsx",
     ".eslintrc.js",
     "tsconfig.jest.json",
     "next.config.js",
