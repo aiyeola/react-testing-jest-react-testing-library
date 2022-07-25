@@ -35,18 +35,13 @@ import user from '@testing-library/user-event';
 
 describe('Counter', () => {
   describe('initialized with defaultCount=10 and description="WWW"', () => {
-    const setup = () =>
-      render(<Counter description="My Counter" defaultCount={0} />);
+    const setup = () => render(<Counter description="WWW" defaultCount={10} />);
 
     beforeEach(() => {});
 
-    it('renders "Current Count: 10"', () => {
+    it('renders "Current Count: 10" and description="WWW"', () => {
       setup();
       expect(screen.getByText('Current Count: 10')).toBeInTheDocument();
-    });
-
-    it('renders title as "WWW"', () => {
-      setup();
       expect(screen.getByText(/WWW/)).toBeInTheDocument();
     });
 
