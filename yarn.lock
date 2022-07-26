@@ -686,6 +686,20 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
+"@testing-library/dom@^8.11.1":
+  version "8.16.0"
+  resolved "https://registry.yarnpkg.com/@testing-library/dom/-/dom-8.16.0.tgz#d6fc50250aed17b1035ca1bd64655e342db3936a"
+  integrity sha512-uxF4zmnLHHDlmW4l+0WDjcgLVwCvH+OVLpD8Dfp+Bjfz85prwxWGbwXgJdLtkgjD0qfOzkJF9SmA6YZPsMYX4w==
+  dependencies:
+    "@babel/code-frame" "^7.10.4"
+    "@babel/runtime" "^7.12.5"
+    "@types/aria-query" "^4.2.0"
+    aria-query "^5.0.0"
+    chalk "^4.1.0"
+    dom-accessibility-api "^0.5.9"
+    lz-string "^1.4.4"
+    pretty-format "^27.0.2"
+
 "@testing-library/dom@^8.13.0", "@testing-library/dom@^8.5.0":
   version "8.13.0"
   resolved "https://registry.yarnpkg.com/@testing-library/dom/-/dom-8.13.0.tgz#bc00bdd64c7d8b40841e27a70211399ad3af46f5"
@@ -1796,6 +1810,15 @@ eslint-plugin-import@^2.26.0:
     object.values "^1.1.5"
     resolve "^1.22.0"
     tsconfig-paths "^3.14.1"
+
+eslint-plugin-jest-dom@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest-dom/-/eslint-plugin-jest-dom-4.0.2.tgz#9d3e2f51055f74c74e745d89c4b1a9781e0ec7a9"
+  integrity sha512-Jo51Atwyo2TdcUncjmU+UQeSTKh3sc2LF/M5i/R3nTU0Djw9V65KGJisdm/RtuKhy2KH/r7eQ1n6kwYFPNdHlA==
+  dependencies:
+    "@babel/runtime" "^7.16.3"
+    "@testing-library/dom" "^8.11.1"
+    requireindex "^1.2.0"
 
 eslint-plugin-jest@^26.1.5:
   version "26.1.5"
@@ -3682,6 +3705,11 @@ require-directory@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/require-directory/-/require-directory-2.1.1.tgz#8c64ad5fd30dab1c976e2344ffe7f792a6a6df42"
   integrity sha1-jGStX9MNqxyXbiNE/+f3kqam30I=
+
+requireindex@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/requireindex/-/requireindex-1.2.0.tgz#3463cdb22ee151902635aa6c9535d4de9c2ef1ef"
+  integrity sha512-L9jEkOi3ASd9PYit2cwRfyppc9NoABujTP8/5gFcbERmo5jUoAKovIC3fsF17pkTnGsrByysqX+Kxd2OTNI1ww==
 
 resolve-cwd@^3.0.0:
   version "3.0.0"

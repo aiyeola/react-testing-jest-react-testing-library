@@ -7,6 +7,7 @@ module.exports = {
     'plugin:jest/recommended',
     'plugin:jest/style',
     'plugin:testing-library/react',
+    'plugin:jest-dom/recommended',
     'plugin:@next/next/recommended',
     'next/core-web-vitals',
   ],

@@ -17,10 +17,8 @@ export function Counter({ description, defaultCount }: CounterProps) {
       <label>
         Incrementor:
         <input
-          value={incrementor}
-          onChange={(evt) => {
-            setIncrementor(parseInt(evt.target.value) || 1);
-          }}
+          value={incrementor.toString()}
+          onChange={(evt) => setIncrementor(parseInt(evt.target.value))}
           type="number"
         />
       </label>

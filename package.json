@@ -9,6 +9,7 @@
     "lint": "next lint",
     "test": "jest",
     "test:ci": "jest coverage --silent --ci",
+    "test:watch": "jest --watch",
     "prepare": "husky install",
     "lint-staged": "lint-staged"
   },
@@ -32,6 +33,7 @@
     "eslint": "^8.15.0",
     "eslint-config-next": "12.1.6",
     "eslint-plugin-jest": "^26.1.5",
+    "eslint-plugin-jest-dom": "^4.0.2",
     "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-testing-library": "^5.3.1",
     "husky": "^7.0.4",
